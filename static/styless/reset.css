@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+:root{
+    --profile-width:40px;
+    --profile-height:40px;
+}
+body{
+    background:#eee;
+    font-family:'PT Sans', sans-serif;
+}
+.shadow{
+    box-shadow:3px 5px 25px #999;
+}
+.white-bg{
+    background:white;
+}
+.place-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cta{
+    border:1px solid black;
+    transition: all .2s;
+}  
+.cta:hover{
+    background:black;
+    color:white;
+}
+a{
+    color:black;
+}
+.profile{
+    height: var(--profile-height);
+    width:var(--profile-width);
+    border-radius: 50%;
+}
+.comment-input{
+    border: none;
+    border-radius: 0;
+    border-bottom:2px solid black;
+    background:transparent;
+
+    outline:none;
+}
+.comment-input:focus{
+    border: none;
+    border-radius: 0;
+    background:transparent;
+    outline:none;
+}

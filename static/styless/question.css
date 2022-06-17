@@ -1,0 +1,21 @@
+.swiper{
+    width:80vw;
+}
+.place-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.q-profile{
+    display: flex;
+}
+.qname{
+    color:black;
+}
+i{
+    cursor:pointer;
+}
+i.fa-heart{
+    color:crimson;
+    padding:5px;
+}

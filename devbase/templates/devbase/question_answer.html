@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load crispy_forms_tags %}
+{% block title %}
+Answer
+{% endblock title %}
+
+
+
+{% block content %}
+
+<form action="" method="POST">
+    {% csrf_token %}
+    {{form.name}}
+    {{form.content}}
+    {{ form.media }}
+    <button class="btn btn-success" id="logout-btn" type="submit">Post Answer</button>
+    <a style="text-decoration: none; " class="btn btn-outline-secondary" href="">Cancel</a>
+</form>
+
+{% endblock content %}
+ 

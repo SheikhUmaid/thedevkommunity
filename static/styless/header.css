@@ -1,0 +1,9 @@
+.cta{
+    border:1px solid black;
+    color:black;
+}
+.cta:hover{
+    color:white;
+    background-color: black;
+    border:1px solid black;
+}
