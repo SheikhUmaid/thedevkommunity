@@ -25,7 +25,7 @@ SECRET_KEY = 'gj$+v_tkjb^dl$q3(y2ddduj15b@s=t=3egnvbnxk+&z$$q3^e58f'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1','192.168.1.12','d18b-182-69-7-222.ngrok.io','3c96-182-69-7-222.ngrok.io']
+ALLOWED_HOSTS = ['127.0.0.1','192.168.1.12','d18b-182-69-7-222.ngrok.io','3c96-182-69-7-222.ngrok.io','thedevkomminuty.herokuapp.com','*','localhost']
 
 
 # Application definition
